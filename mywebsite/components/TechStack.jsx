@@ -30,8 +30,8 @@ export default function Header(){
     </ul>
     <ul className="tech-content rd" style={{listStyle: "none"}}>
         <li>Jest</li>
-        <li>Node.js</li>
-        <li>SQL</li>
+        <li>.Net</li>
+        <li>C#</li>
         <li>React</li>
         <li>Next.js</li>
     </ul>
