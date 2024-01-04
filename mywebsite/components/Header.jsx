@@ -12,7 +12,7 @@ export default function Header(){
             <Link href="#contact"><img src="/assets/Contact.png" className="nav-btn" alt="contact navigation button"/></Link>
             <Link href=""><img src="/assets/CV.png" className="nav-btn" alt="CV navigation button"/></Link>
         </nav>
-    <img src="/assets/10frames.png" id="name-animation" style={{height: "20vw", width: "auto"}} alt="Olivia Johnson" />
+    <img src="/assets/10frames.png" id="name-animation"  alt="Olivia Johnson" />
     <Link href="#about"><img src="/assets/DownArrow.png" id="downArrow" alt="nav down arrow" /></Link>
     </div>
     </>)
