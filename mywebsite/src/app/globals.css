@@ -29,14 +29,14 @@ body{
   padding-top: 1vw;
   height: 100vh;
   width: 100%;
-margin: auto;
+  margin: auto;
 }
 
 #name-animation{
-  margin-top: 10vw;
+  margin-top: 20vh;
   margin-left: 10vw;
   width: auto;
-  height: 20vw;
+  height: 40vh;
 }
 
 #nav-bar{
@@ -48,7 +48,7 @@ margin: auto;
 }
 
 .nav-btn{
-  height: 3vw;
+  height: 6vh;
 }
 
 button{
@@ -259,7 +259,8 @@ color: var(--orange-color);
 @media only screen and (max-width: 600px) {
 
   #name-animation{
-    margin-top: 50vw;
+    margin-top: 20vh;
+    margin-left: 0vw;
     width: 90vw;
     height: auto;
   }
