@@ -9,7 +9,7 @@
   margin: 0;
   text-align: center;
   background-color: var(--cream-color);
-  font-family: sans-serif;
+
   font-weight: 400;
   font-size: large;
 }
@@ -186,8 +186,11 @@ width: 40vw;
 #work-container{
   width: 80vw;
   height: 50vh;
-  border: solid 1vw var(--orange-color);
+  /* border: solid 1vw var(--orange-color); */
   border-radius: 5vw;
+  display: flex;
+  flex-direction: row;
+  padding: 2vw;
 }
 
 #work-one{
@@ -195,7 +198,54 @@ width: 40vw;
   margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
+  gap: 3vw;
   align-items: center;
+height: 100vh;
+color: var(--orange-color);
+}
 
+.prev, .next {
+  cursor: pointer;
+ align-self: center;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: var(--orange-color);
+  font-weight: bold;
+  font-size: 6vw;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.mySlides{
+  display: flex;
+  flex-direction: row;
+  align-items: space-evenly;
+  width: 70vw;
+  color: var(--orange-color);
+}
+
+.mySlides p{
+  margin-top: 4vw;
+  text-wrap:wrap;
+  text-align: start;
+
+}
+
+.title-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
