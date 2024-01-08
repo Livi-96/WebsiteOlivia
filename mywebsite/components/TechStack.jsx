@@ -5,9 +5,9 @@ export default function Header(){
 
     return(<>
     <div id="section-one" className="background-squ">
+   {/* <h2 style={{zIndex: "1001", opacity: "1", display: "block", width: "100%"}}>What am I working with?</h2> */}
         <div id="transp"></div>
     <div >
-   
     <ul className="tech-content" style={{listStyle: "none"}}>
         <li>JavaScript ES6</li>
         <li>Typescript</li>
