@@ -12,7 +12,7 @@ export default function Header(){
         <li>JavaScript ES6</li>
         <li>Typescript</li>
         <li>Playwright</li>
-        <li>PostGress</li>
+        <li>PostgreSQL</li>
         <li>Rest API</li>
     </ul>
     <ul className="tech-content sml" style={{listStyle: "none"}}>

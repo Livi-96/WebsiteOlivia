@@ -4,14 +4,14 @@
   --red-color: #8C3027;
   --cream-color: #f2ebe4;
   --orange-color: #BF5934;
+  --yellow-color: #edc54e;
   max-width: 1280px;
   padding: 0;
   margin: 0;
   text-align: center;
   background-color: var(--cream-color);
-
   font-weight: 400;
-  font-size: large;
+  font-size:larger;
 }
 
 body{
@@ -26,6 +26,31 @@ a{
 
 a:hover{
 text-decoration: underline;
+}
+
+.red-colour{
+  color: var(--red-color);
+  font-weight:800;
+}
+
+.green-colour{
+  color: var(--green-color);
+  font-weight:800;
+}
+
+.orange-colour{
+  color: var(--orange-color);
+  font-weight:800;
+}
+
+.blue-colour{
+  color: var(--blue-color);
+  font-weight:800;
+}
+
+.yellow-colour{
+  color: var(--yellow-color);
+  font-weight:800;
 }
 
 .section-header{
@@ -112,6 +137,11 @@ width: 40vw;
   
 }
 
+#about-text{
+  width: 40vw;
+  line-height: 2vw;
+}
+
 
 /* contact */
 
@@ -122,6 +152,7 @@ width: 40vw;
   align-items: center;
   justify-content: center;
   color: var(--green-color);
+  gap: 2vw
 }
 #contact-content img{
   align-self: center;
@@ -314,6 +345,7 @@ color: var(--red-color);
   border-radius: 2vw;
   background-color: white;
   color:var(--red-color);
+  line-height: 2vw;
   width: 100%;
   height: 100%;
   padding: 1vw;
@@ -322,6 +354,6 @@ color: var(--red-color);
 
 
 .work-content-container img{
-height: 10vw;
+height: 15vw;
 width: auto;
 }
