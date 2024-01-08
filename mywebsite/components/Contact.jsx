@@ -11,6 +11,7 @@ export default function Header(){
     <span> <h1 style={{display: "block"}}>Contact</h1>Please drop me an email at LiviKj1996@Gmail.com.
     <div style={{display: "block", marginTop: "2vw"}}><Link href="https://github.com/Livi-96" target="_blank"><img src="/assets/GitHub.png" className="nav-btn" alt="git hub button"/></Link>
     <Link href="https://www.linkedin.com/in/olivia-johnson-7465301b0/" target="_blank"><img src="/assets/LinkedIn.png" className="nav-btn" alt="LinkedInButton"/></Link></div></span>
+    
     </div>
     </div>
     </>)

@@ -19,6 +19,15 @@ body{
   padding: 0;
 }
 
+a{
+  text-decoration: none;
+  color: #4B7DBF;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
 .section-header{
   width: 20vw;
   margin-top: 2vw;
@@ -307,6 +316,7 @@ color: var(--red-color);
   color:var(--red-color);
   width: 100%;
   height: 100%;
+  padding: 1vw;
 }
 
 

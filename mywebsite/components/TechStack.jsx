@@ -7,6 +7,7 @@ export default function Header(){
     <div id="section-one" className="background-squ">
         <div id="transp"></div>
     <div >
+   
     <ul className="tech-content" style={{listStyle: "none"}}>
         <li>JavaScript ES6</li>
         <li>Typescript</li>
