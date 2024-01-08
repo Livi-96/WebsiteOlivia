@@ -16,25 +16,25 @@ export default function Header(){
         <li>Rest API</li>
     </ul>
     <ul className="tech-content sml" style={{listStyle: "none"}}>
-        <li>Jest</li>
-        <li>Node.js</li>
-        <li>SQL</li>
         <li>React</li>
-        <li>Next.js</li>
+        <li>NodeJs</li>
+        <li>Figma</li>
+        <li>GitHub</li>
+        <li>Git</li>
     </ul>
     <ul className="tech-content orng" style={{listStyle: "none"}}>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Figma</li>
+        <li>C#</li>
+        <li>Kotlin</li>
+        <li>SQL</li>
         <li>HTML</li>
         <li>CSS</li>
     </ul>
     <ul className="tech-content rd" style={{listStyle: "none"}}>
-        <li>Jest</li>
+        <li>Supabase</li>
         <li>.Net</li>
-        <li>C#</li>
-        <li>React</li>
-        <li>Next.js</li>
+        <li>Jest</li>
+        <li>Python</li>
+        <li>Android Studio</li>
     </ul>
     </div>
     </div>

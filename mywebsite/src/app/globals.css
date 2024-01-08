@@ -4,7 +4,7 @@
   --red-color: #8C3027;
   --cream-color: #f2ebe4;
   --orange-color: #BF5934;
-  --yellow-color: #edc54e;
+  --yellow-color: #E7B560;
   max-width: 1280px;
   padding: 0;
   margin: 0;
@@ -154,10 +154,19 @@ width: 40vw;
   color: var(--green-color);
   gap: 2vw
 }
+
 #contact-content img{
   align-self: center;
   justify-self: center;
   margin: 0
+}
+
+#contact-links{
+  display: flex;
+  flex-direction: row;
+  gap: 3vw;
+  justify-content: center;
+  align-items: center;
 }
 
 /* work */
@@ -169,6 +178,7 @@ width: 40vw;
   align-items: center;
   justify-content: center;
   color: var(--orange-color);
+  gap: 3vw;
 }
 
 /* tech stack */
