@@ -19,15 +19,20 @@ function prevSlide(){
 
 }
 
-const projects =[{title: "StudyBudy" , img: "SB.png", description:"Study budy is an appp"},{title: "HarvestHub" , img: "SB.png", description:""},{title: "hello" , img: "SB.png", description:""},{title: "blah" , img: "SB.png", description:""}]
+const projects =[{title: "StudyBudy" , img: "SBsqr.png", description:"Study budy is an appp"},{title: "HarvestHub" , img: "Veglogo.png", description:""},{title: "MyMunroApp" , img: "SB.png", description:""}]
 
     return(<>
     <div id="work-one">
     <h1 style={{display: "block"}}>Work</h1>
-<div id="work-container">
+<div id="work-container" class="white-bck">
     <a className="prev" onClick={prevSlide} style={{alignSelf: "center"}}>&#10094;</a>
  <WorkCard slideNum = {slideNum} projects={projects}/>
   <a className="next" onClick={nextSlide} style={{alignSelf: "center"}}>&#10095;</a>
+</div>
+<div style={{textAlign: "center"}}>
+  <span className="dot" onclick="currentSlide(1)"></span> 
+  <span className="dot" onclick="currentSlide(2)"></span> 
+  <span className="dot" onclick="currentSlide(3)"></span> 
 </div>
     </div>
     </>)

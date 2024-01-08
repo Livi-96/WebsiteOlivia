@@ -4,13 +4,25 @@ import Link from "next/link"
 export default function Header(){
 
     return(<>
-    <div id="section-one">
-        <div style={{display: "flex", flexDirection: "row", alignSelf: "start", padding: "0vw"}}><img src="/assets/Buddylogo.png" style={{height: "20vw", alignSelf: "start"}}></img>
-        <span><h2>Study Buddy</h2></span></div>
-    <div id="Work-content">
-    <span className="text-content"> <h1 style={{display: "block"}}>Work</h1>This is the work ive done</span>
-    <img src="/assets/Working.png" alt="working illustration" style={{width: "25vw", alignSelf: "end", marginLeft: "-2vw", marginRight: "2vw"}}/>
-    </div>
+    <div id="section-one" className="work-Title">
+        <h1> Work</h1>
+        <div id="work-container">
+        <div className="work-card">
+            <h2>StudyBuddy</h2>
+            <div className="work-content-container">
+            <img src="/assets/SBsqr.png" alt="Study buddy  logo"></img>
+            <p>An app designed to bring people to gether to share learning, resources and fun!</p>
+            </div>
+        </div>
+        <div className="work-card">
+
+            <h2>HarvestHub</h2>
+            <div className="work-content-container">
+            <img src="/assets/Veglogo.png" alt="harvest hub logo"></img>
+            <p>An app designed to bring people to gether to share learning, resources and fun!</p>
+            </div>
+        </div>
+</div>
     </div>
     </>)
 }

@@ -1,7 +1,7 @@
 
 import Image from 'next/image'
 import Header from '../../components/Header'
-import Work from "../../components/Work2"
+import Work from "../../components/Work"
 import Contact from "../../components/Contact"
 import About from '../../components/About'
 import TechStack from "../../components/TechStack"

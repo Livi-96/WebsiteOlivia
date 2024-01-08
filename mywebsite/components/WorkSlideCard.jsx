@@ -11,6 +11,7 @@ export default function WorkCard( { slideNum, projects } ){
         <p className="work-description">{projects[slideNum].description}</p>
     </div>
     </>)
+
     
 }
 
