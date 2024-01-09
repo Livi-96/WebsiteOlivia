@@ -61,7 +61,7 @@ text-decoration: underline;
 
 #header-background{
   padding-top: 1vw;
-  height: 105vh;
+  height: 100vh;
   width: 100%;
 margin: auto;
 }
@@ -299,6 +299,10 @@ color: var(--orange-color);
 
 @media only screen and (max-width: 600px) {
 
+  #header-background{
+
+    height: 105vh;
+  }
 
   a{
     line-height: 1.5rem;
