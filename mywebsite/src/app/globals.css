@@ -116,6 +116,22 @@ button{
   align-items: center;
 }
 
+#section-about{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-tech{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* multiple sections */
 
 .text-content{
@@ -350,6 +366,7 @@ color: var(--orange-color);
 
   .sc-about{
     justify-content: center;
+    padding-top: 2vh;
   }
 
   #about-content{
@@ -463,5 +480,7 @@ color: var(--orange-color);
   justify-content: center;
   align-items: center;
 }
-
+.tech-content{
+  padding: 0 
+}
 }
