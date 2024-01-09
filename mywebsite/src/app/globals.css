@@ -61,7 +61,7 @@ text-decoration: underline;
 
 #header-background{
   padding-top: 1vw;
-  height: 100vh;
+  height: 105vh;
   width: 100%;
 margin: auto;
 }
@@ -307,6 +307,7 @@ color: var(--orange-color);
   #work{
     min-height: 100vh;
     height: fit-content;
+    align-items: center;
   }
 
   #section-one{
@@ -343,8 +344,13 @@ color: var(--orange-color);
 
   /* about */
 
+  .sc-about{
+    justify-content: center;
+  }
+
   #about-content{
     flex-direction: column;
+    justify-self: center;
   }
   
   #about-text{
@@ -354,7 +360,9 @@ color: var(--orange-color);
 
 /* work */
 
-
+.sc-work{
+  justify-content: start;
+}
 #work-container{
   width: 80vw;
   height: 50vh;

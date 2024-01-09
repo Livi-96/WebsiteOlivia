@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Header(){
 
     return(<>
-    <div id="section-one" className="work-Title">
+    <div id="section-one" className="work-Title sc-work">
         <h1> Work</h1>
         <div id="work-container">
         <div className="work-card">

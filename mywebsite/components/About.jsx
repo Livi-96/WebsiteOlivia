@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function About() {
   return (
     <>
-      <div id="section-one" className="white-bck">
+      <div id="section-about" className="white-bck sc-about">
         <div id="about-content">
           <img
             src="/assets/AboutImg.png"
