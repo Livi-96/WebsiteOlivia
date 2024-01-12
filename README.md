@@ -1,2 +1,2 @@
 # WebsiteOlivia
-My personal website and portfolio page
+Welcome to my website and portfolio!
