@@ -20,7 +20,7 @@ export default function Current(){
             <h2>InSheffield</h2>
             <div className="work-content-container">
             <img src="/assets/InSheffLogo.png" alt="harvest hub logo"></img>
-            <p>As a newcomer to the city, I&apos;m designing an web application to keep track of all my favourite spots, and recommendations! Currently using React on the frontend, with a PostgreSQL database. </p>
+            <p>As a newcomer to the city, I&apos;m designing a web application to keep track of all my favourite spots, and recommendations! Currently using React on the frontend, with a PostgreSQL database. </p>
             <br></br>
       
             </div>
