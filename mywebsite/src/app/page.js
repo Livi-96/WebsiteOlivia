@@ -6,6 +6,7 @@ import Contact from "../../components/Contact"
 import About from '../../components/About'
 import TechStack from "../../components/TechStack"
 import { Josefin_Sans } from 'next/font/google'
+import Current from '../../components/Current'
 
 const js = Josefin_Sans({ subsets: ['latin'] })
 
@@ -17,6 +18,7 @@ export default function Home() {
 
      <section id="about" ><About/> </section>
      <section id="work" > <Work /></section>
+     <section id="current" > <Current /></section>
      <section id="contact" > <Contact /></section>
      <section id="tech" > <TechStack /></section>
     </main>

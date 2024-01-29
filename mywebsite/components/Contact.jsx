@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <>
-      <div id="section-one" className="white-bck">
+      <div id="section-one" className="">
         <div id="contact-content">
           <img
             src="/assets/ContactImg.png"
